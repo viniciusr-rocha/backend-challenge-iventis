@@ -19,7 +19,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
-public class FindTopLoyalCustomersImplTest {
+public class FindTopLoyalCustomersServiceImplTest {
 
     @Mock
     private MemoryRepositoryGateway repository;
