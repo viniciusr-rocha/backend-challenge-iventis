@@ -11,11 +11,11 @@ import org.springframework.stereotype.Repository;
 import java.util.*;
 
 @Repository
-public class MemoryRepositoryGatewayRepository implements MemoryRepositoryGateway {
+public class MemoryRepository implements MemoryRepositoryGateway {
 
     private final MockDataClient mockDataClient;
 
-    public MemoryRepositoryGatewayRepository(MockDataClient mockDataClient) {
+    public MemoryRepository(MockDataClient mockDataClient) {
         this.mockDataClient = mockDataClient;
     }
 
